@@ -344,7 +344,7 @@
             "command": "/usr/bin/hammer --interactive 0 --output json compute-resource list",
             "pattern": [],
             "symbolic_name": "hammer_compute_resource_list"
-        },    
+        },
         {
             "command": "/usr/bin/crontab -l -u heat",
             "pattern": [

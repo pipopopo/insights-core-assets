@@ -1826,7 +1826,7 @@
             "command": "/usr/bin/hammer --interactive 0 --output json compute-resource list",
             "pattern": [],
             "symbolic_name": "hammer_compute_resource_list"
-        },    
+        },
         {
             "file": "/etc/haproxy/haproxy.cfg",
             "pattern": [],
