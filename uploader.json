@@ -341,6 +341,11 @@
             "symbolic_name": "grubby_default_kernel"
         },
         {
+            "command": "/usr/bin/hammer --interactive 0 --output json compute-resource list",
+            "pattern": [],
+            "symbolic_name": "hammer_compute_resource_list"
+        },
+        {
             "command": "/usr/bin/crontab -l -u heat",
             "pattern": [
                 "heat-manage"
@@ -1821,11 +1826,6 @@
             "file": "/boot/grub2/grubenv",
             "pattern": [],
             "symbolic_name": "grub2_grubenv"
-        },
-        {
-            "command": "/usr/bin/hammer --interactive 0 --output json compute-resource list",
-            "pattern": [],
-            "symbolic_name": "hammer_compute_resource_list"
         },
         {
             "file": "/etc/haproxy/haproxy.cfg",
